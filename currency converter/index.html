@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Currency Converter</title>
+  </head>
+  <body>
+    <!-- Explaination of the static options -->
+    <!-- <select name="" id="fromCountry">
+      <option value="123">Options 1</option>
+      <option value="123">Options 2</option>
+      <option value="123">Options 3</option>
+      <option value="123">Options 4</option>
+      <option value="123">Options 5</option>
+    </select> -->
+
+    <h2>Currency Converter</h2>
+
+    <label>From:</label>
+    <select name="" id="fromCountry"></select>
+
+    <label>to</label>
+    <select name="" id="toCountry"></select>
+
+    <!-- input value for taking number -->
+    <input
+      type="number"
+      id="amount"
+      placeholder="Enter amount to convert"
+    />
+
+    <button onclick="convertCurrency()">submit</button>
+
+
+    <h3 id="result"></h3>
+  </body>
+
+  <script src="converter.js"></script>
+</html>
